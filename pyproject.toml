@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kuber_practice"
+version = "0.1.0"
+description = ""
+authors = ["dini <0327jane@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.68.1"
+uvicorn = "^0.15.0"
+helm = "^0.4"
+glib = "^1.0.0"
+PyQt5 = "^5.15.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
